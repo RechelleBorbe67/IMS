@@ -2,9 +2,9 @@ PROJECT TITLE : INVENTORY MANAGEMENT SYSTEM
 
 Group Member List with Assigned Roles
 
- Leader                                : Rechelle Borbe 
+ Leader                  : Rechelle Borbe 
  Database Architecture   :Curt Justin Reodique
  Database Architecture   :Mhelarry Valeza 
- SQL developer                  :Faith Ann Sañado
- :Back-end developer        :Susaine Rico
- QA tester                             :Shaine SanJuan
+ SQL developer           :Faith Ann Sañado
+ Back-end developer      :Susaine Rico
+ QA tester               :Shaine SanJuan
