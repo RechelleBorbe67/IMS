@@ -1,6 +1,6 @@
-# IMS
+# IMS - INFORMATION MANAGEMENT SYSTEM
 
-System Description: TheInventory Management System (IMS) is a software application designed to manage and track inventory levels, monitor stock movements, and optimize storage capacity for a retail or manufacturing organization. The system aims to streamline inventory operations, reduce costs, and improve overall supply chain efficiency
+System Description: The Inventory Management System (IMS) is a software application designed to manage and track inventory levels, monitor stock movements, and optimize storage capacity for a retail or manufacturing organization. The system aims to streamline inventory operations, reduce costs, and improve overall supply chain efficiency
 
 Language to use: MySQL and python
 
