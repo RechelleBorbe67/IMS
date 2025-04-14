@@ -5,23 +5,23 @@ INSERT INTO Users (username, password, role) VALUES
 ('manager1', '$2a$10$xJwL5v5Jz5U', 'manager'),
 ('staff1', '$2a$10$xJwL5v5Jz5U', 'staff');
 
--- Suppliers (matches your table structure)
+-- Suppliers
 INSERT INTO Suppliers (name, contact, address) VALUES
 ('Tech Supplies Inc.', '1234567890', '123 Tech St, City A'),
 ('Gadget World', '0987654321', '456 Gadget Ave, City B');
 
--- Customers (exact field match)
+-- Customers 
 INSERT INTO Customers (name, contact, address) VALUES
 ('Charlie', '1112223333', '789 Customer Rd, City C'),
 ('River', '4445556666', '101 Customer St, City D');
 
--- Categories (minimal required data)
+-- Categories 
 INSERT INTO Categories (category_name) VALUES
 ('Laptops'),
 ('Smartphones'),
 ('Accessories');
 
--- Products (fully compatible with your schema)
+-- Products 
 INSERT INTO Products (
   name, 
   description, 
@@ -53,7 +53,7 @@ INSERT INTO Products (
   12
 );
 
--- Orders (100% schema-compliant)
+-- Orders 
 INSERT INTO Orders (
   user_id, 
   customer_id, 
@@ -73,7 +73,7 @@ INSERT INTO Orders (
   'Pending'
 );
 
--- OrderItems (linked correctly)
+-- OrderItems
 INSERT INTO OrderItems (
   order_id, 
   product_id, 
@@ -93,7 +93,7 @@ INSERT INTO OrderItems (
   800.00
 );
 
--- StockTransactions (matching your enum types)
+-- StockTransactions
 INSERT INTO StockTransactions (
   product_id, 
   transaction_type, 
@@ -110,7 +110,7 @@ INSERT INTO StockTransactions (
   100
 );
 
--- AuditLog (minimal sample)
+-- AuditLog 
 INSERT INTO AuditLog (user_id, action) VALUES
 ((SELECT user_id FROM Users WHERE username='admin1'), 'Added sample data'),
 ((SELECT user_id FROM Users WHERE username='staff1'), 'Performed test import');
