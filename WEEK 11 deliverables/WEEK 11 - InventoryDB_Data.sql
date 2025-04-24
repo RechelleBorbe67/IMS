@@ -1,5 +1,5 @@
 -- InventoryDB_Data.sql
--- Users (exact match to your schema)
+-- Users
 INSERT INTO Users (username, password, role) VALUES
 ('admin1', '$2a$10$xJwL5v5Jz5U', 'admin'),
 ('manager1', '$2a$10$xJwL5v5Jz5U', 'manager'),
