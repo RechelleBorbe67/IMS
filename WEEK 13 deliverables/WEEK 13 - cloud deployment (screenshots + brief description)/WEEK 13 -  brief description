@@ -1,0 +1,5 @@
+For the cloud deployment component, we used Railway.app to host our MySQL database online. We created a new project and provisioned a free MySQL instance, which gave us access credentials and a hosted environment for remote database access.
+
+We then connected to the Railway MySQL instance using MySQL Workbench by configuring the host, port, user, password, and database name. After establishing a secure connection, we imported our backup SQL file (originally exported from our local database using the self-contained file method). This successfully restored our schooldb database on the cloud.
+
+To validate the deployment, we ran test queries such as SELECT * FROM inventorydb.users; and SELECT * FROM inventorydb.orders; to ensure the data was accurately restored. The cloud-based setup allows us to access and manage our project database remotely, making it scalable and easy to integrate into future applications.
