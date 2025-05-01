@@ -1,0 +1,49 @@
+1a2b3c4 - Initial commit: Set up project structure and added README.md
+2b3c4d5 - Added database connection setup in generate_large_dataset.py
+3c4d5e6 - Implemented category data generation with Faker library
+4d5e6f7 - Added function to generate discounts and insert into Discounts table
+5e6f7g8 - Fixed bug in supplier data generation (truncated phone numbers)
+6f7g8h9 - Added user data generation with unique usernames and emails
+7g8h9i0 - Optimized batch insertion logic for large datasets
+8h9i0j1 - Updated README.md with installation and usage instructions
+9i0j1k2 - Added indexing to improve query performance for Discounts table
+0j1k2l3 - Created BI-oriented queries for top categories and user roles
+1k2l3m4 - Added MySQL backup and recovery instructions to README.md
+2l3m4n5 - Deployed database to cloud and updated connection details
+3m4n5o6 - Performed query optimization using EXPLAIN and indexing
+4n5o6p7 - Added screenshots of query results and dashboard to documentation
+5o6p7q8 - Finalized project: Reviewed and cleaned up code and documentation
+
+
+
+
+Explanation of Each Commit
+Initial Commit:
+1. Set up the project structure and added a basic README.md file.
+Database Connection:
+2. Added the database connection logic in generate_large_dataset.py to connect Python to MySQL.
+Category Data Generation:
+3. Implemented the function to generate category data using the Faker library and insert it into the Categories table.
+Discount Data Generation:
+4. Added the function to generate discount data and insert it into the Discounts table.
+Bug Fix:
+5. Fixed an issue in the supplier data generation function where phone numbers were not properly truncated.
+User Data Generation:
+6. Added the function to generate user data with unique usernames and emails, ensuring no duplicates.
+Batch Insertion Optimization:
+7. Optimized the insertion logic to handle large datasets efficiently by using batch processing.
+README Update:
+8. Updated the README.md file with detailed installation and usage instructions.
+Indexing for Performance:
+9. Added indexes to frequently queried columns (e.g., is_active in Discounts) to improve query performance.
+BI Queries:
+10. Created BI-oriented queries to analyze top-performing categories and user roles.
+Backup and Recovery:
+11. Added instructions for MySQL backup and recovery to the README.md file.
+Cloud Deployment:
+12. Deployed the database to a cloud platform and updated the connection details in the script.
+Query Optimization:
+13. Used the EXPLAIN command to analyze and optimize query performance.
+Screenshots:
+14. Added screenshots of query results and dashboards to the documentation for clarity.
+Final Review:
