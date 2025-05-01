@@ -20,7 +20,9 @@ Language to use:prerequisites
 Installation
 1. Clone the repository:
    ```bash
-   git clone 
+   git clone https://github.com/RechelleBorbe67/Inventory-Management-System-.git
+
+   
 
 Members of the group: Rechelle Borbe - Leader Susaine Rico - Back-end Developer Faith Sanado - SQL Developer Curt Justin Reodique - Database Architect Shaine San Juan -QA Tester Nhelarry Valeza -Database Architect
 
