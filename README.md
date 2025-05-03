@@ -35,3 +35,5 @@ https://github.com/RechelleBorbe67/Inventory-Management-System-/blob/5a8ef211567
 
 # Update of our current status: 
 We've made significant progress on our inventory management system, with a current completion rate of 100%. 
+
+# GroupIMS Defense Video
