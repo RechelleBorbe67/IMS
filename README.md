@@ -38,7 +38,7 @@ We've made significant progress on our inventory management system, with a curre
 
 # GroupIMS Defense Video
 Sir,
-We attempted to upload a video to GitHub; however, the maximum file size allowed is 25 MB, while our video file is 555 MB.
+We attempted to upload a video here, however, the maximum file size allowed is 25 MB, while our video file is 555 MB.
 As a solution, we have uploaded the video to Google Drive and pasted the link here for your reference.
 
 Here is the link:   https://drive.google.com/file/d/1zQXVG4UqK_ru7GAbPbcaWY-P6K9UVMJk/view?usp=sharing
